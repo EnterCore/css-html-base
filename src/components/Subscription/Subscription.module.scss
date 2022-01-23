@@ -1,0 +1,55 @@
+.subscription{
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1070px;
+  max-height: 475px;
+ justify-content: space-around;
+  top: 1100px;
+  margin: 0 auto;
+};
+
+.info{
+  max-width: 556px;
+  max-height: 230px;
+
+  h2{
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing:-1.56316px;
+    color: #19191B;
+  };
+
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+  };
+
+  a{
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+    cursor: pointer;
+  }
+  a:after{
+    display: block;
+	  position: absolute;
+	  left: 0; 
+	  width: 0;
+	  height: 2px; 
+	  background-color: #5454D4;
+	  content: "";
+	  transition: width 0.3s ease-out; 
+  }
+  a:hover:after,
+  a:focus:after {
+	  width: 100%;
+  }
+}

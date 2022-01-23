@@ -1,0 +1,40 @@
+.Footer{
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1070px;
+  max-height: 207px;
+  justify-content: space-between;
+  top: 1450px;
+  margin: 0 auto;
+};
+
+.card{
+  width: 307px;
+  height: 207px;
+  align-items: center;
+
+  h3{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+  };
+
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #696871;
+  };
+};
+
+.footerPicture{
+  display: block;
+  margin: 0 auto; 
+  padding-bottom: 20px;
+};
